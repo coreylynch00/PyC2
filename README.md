@@ -55,7 +55,7 @@ curl -H "Content-Type: text/plain" --data-binary "{command}" http://127.0.0.1:50
 
 ### Windows (PowerShell)
 ```
-Invoke-WebRequest -Uri "http://127.0.0.1:5000/task/<agent_id>" -Method POST -Body "command" -ContentType "text/plain"
+Invoke-WebRequest -Uri "http://127.0.0.1:5000/task/<agent_id>" -Method POST -Body "{command}" -ContentType "text/plain"
 ```
 
 ## Command Response
