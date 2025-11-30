@@ -13,7 +13,7 @@ This project demonstrates the core concepts of C2 communication: agent registrat
 - Agent polling loop  
 - Executes remote system commands  
 - Result posting to server  
-- Python-based (Flask + Requests)  
+- Python-based
 - Works on Linux, macOS, Windows  
 
 ## Requirements
