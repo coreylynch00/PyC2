@@ -3,6 +3,10 @@ A minimal Command‑and‑Control (C2) framework built for learning. It uses a l
 
 This project demonstrates the core concepts of C2 communication: agent registration, tasking, polling, and result exfiltration using simple HTTP endpoints.
 
+![Registration](agent-id-created.png)
+
+![Response](whoami-request&response.png)
+
 ## Features
 - Agent registration  
 - Server‑side task queue  
@@ -37,7 +41,7 @@ The agent will register and print an agent ID.
 
 ## Sending Commands to Agents
 
-Open another terminal to use curl remote commands (see below)
+Open another terminal to curl remote commands (see below)
 
 ### Linux
 ```
